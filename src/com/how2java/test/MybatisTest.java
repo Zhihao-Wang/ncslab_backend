@@ -23,7 +23,7 @@ public class MybatisTest {
 	public void testAdd() {
 		for (int i = 0; i < 100; i++) {
 			Category category = new Category();
-			category.setName("new Category");
+			category.setNameCN("new Category");
 			categoryMapper.add(category);
 		}
 
@@ -42,7 +42,7 @@ public class MybatisTest {
 		p.setCount(3);
 		List<Category> cs=categoryMapper.list(p);
 		for (Category c : cs) {
-			System.out.println(c.getName());
+			System.out.println(c.getNameCN());
 		}
 	}
 

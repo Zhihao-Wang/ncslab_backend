@@ -29,17 +29,22 @@ public class CategoryController {
 	@Autowired
 	CategoryService categoryService;
 
-	@RequestMapping("listCategory")
+	@RequestMapping("api/updatelabsconfig")
 	public void listCategory( HttpServletResponse response) throws IOException {
 //		ModelAndView mav = new ModelAndView();
 		List<Category> cs = categoryService.list();
+		int retcode=1;
 //		int total = categoryService.total();
 //		page.caculateLast(total);
 //		 放入转发参数
 //		mav.addObject("cameralist", cs);
 		JSONObject json = new JSONObject();
-		json.put("cameraList", JSONObject.toJSON(cs));
+		json.put("retcode",JSONObject.toJSON(retcode));
+		json.put("data", JSONObject.toJSON(cs));
+		response.setContentType("application/xml;utf-8");
+		response.setCharacterEncoding("utf-8");
 		PrintWriter out = response.getWriter();
+		System.out.println(json);
 		out.print(json);
 		out.close();
 //		// 放入jsp路径
@@ -47,14 +52,24 @@ public class CategoryController {
 //		return mav;
 	}
 
-	@RequestMapping("listCategory/{id}")
+	@RequestMapping("api/updatelabsconfig/{id}")
 	public void listCategory_one(@PathVariable("id")Integer id, Category category, HttpServletResponse response) throws IOException {
+		int retcode;
 		Category c= categoryService.get(id);
+		if(c==null){
+			retcode=0;
+		}
+		else{
+			retcode=1;
+		}
 //		ModelAndView mav = new ModelAndView();
 //		 放入转发参数
 //		mav.addObject("c", c);
 		JSONObject json=new JSONObject();
-		json.put("cameraFormData", JSONObject.toJSON(c));
+		json.put("retcode",JSONObject.toJSON(retcode));
+		json.put("data", JSONObject.toJSON(c));
+		response.setContentType("application/xml;utf-8");
+		response.setCharacterEncoding("utf-8");
 		PrintWriter out=response.getWriter();
 		out.print(json);
 		out.close();

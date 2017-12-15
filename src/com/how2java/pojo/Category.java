@@ -2,14 +2,14 @@ package com.how2java.pojo;
 
 public class Category {
 	private int id;
-	private String name;
+	private String nameCN;
 	private String nameEN;
 	private int statusCode;
 	private String webURL;
 	private int width;
 	private int height;
 	private int testRigid;
-	private String testRidName;
+	private String testRigName;
 
 	public String getNameEN() {
 		return nameEN;
@@ -59,12 +59,13 @@ public class Category {
 		this.testRigid = testRigid;
 	}
 
-	public String getTestRidName() {
-		return testRidName;
+	public String getTestRigName() {
+		return testRigName;
 	}
 
-	public void setTestRidName(String testRidName) {
-		this.testRidName = testRidName;
+
+	public void setTestRigName(String testRigName) {
+		this.testRigName = testRigName;
 	}
 
 	public int getId() {
@@ -73,25 +74,27 @@ public class Category {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+
+	public String getNameCN() {
+		return nameCN;
 	}
-	public void setName(String name) {
-		this.name = name;
+
+	public void setNameCN(String nameCN) {
+		this.nameCN = nameCN;
 	}
 
 	@Override
 	public String toString() {
 		return "Category{" +
 				"id=" + id +
-				", name='" + name + '\'' +
+				", nameCN='" + nameCN + '\'' +
 				", nameEN='" + nameEN + '\'' +
 				", statusCode=" + statusCode +
 				", webURL='" + webURL + '\'' +
 				", width=" + width +
 				", height=" + height +
 				", testRigid=" + testRigid +
-				", testRidName='" + testRidName + '\'' +
+				", testRidName='" + testRigName + '\'' +
 				'}';
 	}
-}
+			}
