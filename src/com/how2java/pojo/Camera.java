@@ -1,6 +1,6 @@
 package com.how2java.pojo;
 
-public class Category {
+public class Camera {
 	private int id;
 	private String nameCN;
 	private String nameEN;
@@ -85,7 +85,7 @@ public class Category {
 
 	@Override
 	public String toString() {
-		return "Category{" +
+		return "Camera{" +
 				"id=" + id +
 				", nameCN='" + nameCN + '\'' +
 				", nameEN='" + nameEN + '\'' +
