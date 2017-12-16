@@ -4,19 +4,17 @@ package com.how2java.controller;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
+import java.util.Map;
 
 import com.alibaba.fastjson.JSONObject;
 import com.how2java.pojo.Camera;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 
 import com.how2java.service.CameraService;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 
 import javax.servlet.http.HttpServletResponse;
@@ -33,10 +31,7 @@ public class CameraController {
 
 		List<Camera> cs = cameraService.list();
 		int retcode=1;
-//		int total = categoryService.total();
-//		page.caculateLast(total);
-//		 放入转发参数
-//		mav.addObject("cameralist", cs);
+
 		JSONObject json = new JSONObject();
 		json.put("retcode",JSONObject.toJSON(retcode));
 		json.put("data", JSONObject.toJSON(cs));
@@ -70,8 +65,7 @@ public class CameraController {
 
 	}
 	@RequestMapping(value ="api/cameras",method = RequestMethod.POST)
-	@ResponseBody
-	public void addCamera(Camera camera){
+	public void addCamera(@RequestBody(required = true)Camera camera){
 		cameraService.add(camera);
 	}
 
@@ -79,17 +73,12 @@ public class CameraController {
 	public void deleteCategory(@PathVariable("id")Integer id) {
 		Camera c= cameraService.get(id);
 		cameraService.delete(c);
-
 	}
 
 
 	@RequestMapping(value = "api/cameras/{id}",method = RequestMethod.POST)
-	@ResponseBody
-	public String editCategory(@PathVariable("id")Integer id,Camera camera) {
+	public void editCategory(@RequestBody(required=true)Camera camera) {
 		cameraService.update(camera);
-		id=camera.getId();
-		return "redirect:api/cameras/{id}";
-
 
 	}
 
