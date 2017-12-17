@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import com.how2java.service.CameraService;
 
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 // 告诉spring mvc这是一个控制器类
@@ -27,11 +28,9 @@ public class CameraController {
 	CameraService cameraService;
 
 	@RequestMapping(value = "api/cameras",method = RequestMethod.GET)
-	public void listCategory(HttpServletResponse response) throws IOException {
-
+	public void listCamera(HttpServletResponse response) throws IOException {
 		List<Camera> cs = cameraService.list();
 		int retcode=1;
-
 		JSONObject json = new JSONObject();
 		json.put("retcode",JSONObject.toJSON(retcode));
 		json.put("data", JSONObject.toJSON(cs));
@@ -45,7 +44,7 @@ public class CameraController {
 	}
 
 	@RequestMapping(value = "api/cameras/{id}",method =RequestMethod.GET )
-	public void listCategory_one(@PathVariable("id")Integer id, HttpServletResponse response) throws IOException {
+	public void listCamera_one(@PathVariable("id")Integer id, HttpServletResponse response) throws IOException {
 		int retcode;
 		Camera c= cameraService.get(id);
 		if(c==null){
@@ -62,24 +61,46 @@ public class CameraController {
 		PrintWriter out=response.getWriter();
 		out.print(json);
 		out.close();
-
 	}
-	@RequestMapping(value ="api/cameras",method = RequestMethod.POST)
-	public void addCamera(@RequestBody(required = true)Camera camera){
+
+	@ResponseBody
+	@RequestMapping(value ="api/cameras",method = RequestMethod.POST, consumes = "application/json")
+	public void addCamera(@RequestBody Camera camera, HttpServletResponse response) throws IOException {
+//		response.setHeader("Access-Control-Allow-Methods","POST");
 		cameraService.add(camera);
+		int retcode=1;
+		JSONObject json = new JSONObject();
+		json.put("retcode",JSONObject.toJSON(retcode));
+		PrintWriter out = response.getWriter();
+		out.print(json);
+		out.close();
 	}
 
+	@ResponseBody
 	@RequestMapping(value = "api/cameras/{id}",method = RequestMethod.DELETE)
-	public void deleteCategory(@PathVariable("id")Integer id) {
+	public void deleteCamera(@PathVariable("id")Integer id, HttpServletResponse response) throws IOException {
 		Camera c= cameraService.get(id);
 		cameraService.delete(c);
+		int retcode=1;
+		JSONObject json = new JSONObject();
+		json.put("retcode",JSONObject.toJSON(retcode));
+		PrintWriter out = response.getWriter();
+		out.print(json);
+		out.close();
 	}
 
 
-	@RequestMapping(value = "api/cameras/{id}",method = RequestMethod.POST)
-	public void editCategory(@RequestBody(required=true)Camera camera) {
+	@RequestMapping(value = "api/cameras/{id}",method = RequestMethod.PUT, consumes = "application/json")
+	@ResponseBody
+	public void updateCamera(@RequestBody Camera camera,@PathVariable("id")Integer id, HttpServletResponse response) throws IOException {
+		camera.setId(id);
 		cameraService.update(camera);
-
+		int retcode=1;
+		JSONObject json = new JSONObject();
+		json.put("retcode",JSONObject.toJSON(retcode));
+		PrintWriter out = response.getWriter();
+		out.print(json);
+		out.close();
 	}
 
 }

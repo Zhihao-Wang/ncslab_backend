@@ -5,7 +5,7 @@
 
 	<mapper namespace="com.how2java.mapper.CameraMapper">
 	    <insert id="add" parameterType="Camera" >
-	        insert into cameraslist (nameCN,nameEN,webURL,width,height,testRigid,testRigName) values (#{nameCN},#{nameEN},#{webURL},#{width},#{height},#{testRigid},#{testRigName})
+	        insert into cameraslist (nameCN,nameEN,webURL,width,height,testRigid,workState) VALUES (#{nameCN},#{nameEN},#{webURL},#{width},#{height},#{testRigid},#{workState})
 	    </insert>
 	    
 	    <delete id="delete" parameterType="Camera" >
@@ -17,7 +17,7 @@
 	    </select>
 
 	    <update id="update" parameterType="Camera" >
-	        update cameraslist set (nameCN,nameEN,webURL,width,height,testRigid,testRigName)=(#{nameCN},#{nameEN},#{webURL},#{width},#{height},#{testRigid},#{testRigName}) where id=#{id}
+	        update cameraslist set nameCN=#{nameCN},nameEN=#{nameEN},webURL=#{webURL},width=#{width},height=#{height},testRigid=#{testRigid},workState=#{workState} where id=#{id}
 	    </update>
 	    <select id="list" resultType="Camera">
 	        select * from   cameraslist order by id desc
@@ -26,8 +26,6 @@
             </if>
             
 	    </select>
-	    <select id="total" resultType="int">
-	        select count(*) from   cameraslist
-	    </select>	    	    
+
 	</mapper>
 

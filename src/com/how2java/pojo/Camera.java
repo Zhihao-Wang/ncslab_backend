@@ -1,31 +1,35 @@
 package com.how2java.pojo;
 
+
+
 public class Camera {
 	private int id;
 	private String nameCN;
 	private String nameEN;
-	private int statusCode;
 	private String webURL;
 	private int width;
 	private int height;
 	private int testRigid;
 	private String testRigName;
+	private Boolean workState;
+
+	public void setWorkState(Boolean workState) {
+		this.workState = workState;
+	}
 
 	public String getNameEN() {
 		return nameEN;
+	}
+
+	public Boolean getWorkState() {
+		return workState;
 	}
 
 	public void setNameEN(String nameEN) {
 		this.nameEN = nameEN;
 	}
 
-	public int getStatusCode() {
-		return statusCode;
-	}
 
-	public void setStatusCode(int statusCode) {
-		this.statusCode = statusCode;
-	}
 
 	public String getWebURL() {
 		return webURL;
@@ -87,14 +91,14 @@ public class Camera {
 	public String toString() {
 		return "Camera{" +
 				"id=" + id +
+				", workState=" + workState +
 				", nameCN='" + nameCN + '\'' +
 				", nameEN='" + nameEN + '\'' +
-				", statusCode=" + statusCode +
 				", webURL='" + webURL + '\'' +
 				", width=" + width +
 				", height=" + height +
 				", testRigid=" + testRigid +
-				", testRidName='" + testRigName + '\'' +
+				", testRigName='" + testRigName + '\'' +
 				'}';
 	}
-			}
+}
