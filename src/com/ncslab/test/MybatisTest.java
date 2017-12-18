@@ -1,15 +1,12 @@
-package com.how2java.test;
+package com.ncslab.test;
 
-import java.util.List;
-
-import com.how2java.pojo.Camera;
-import org.junit.Test;
+import com.ncslab.pojo.Camera;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.how2java.mapper.CameraMapper;
+import com.ncslab.mapper.CameraMapper;
 
 
 

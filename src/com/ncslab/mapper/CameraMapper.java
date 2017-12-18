@@ -1,8 +1,8 @@
-package com.how2java.mapper;
+package com.ncslab.mapper;
  
 import java.util.List;
 
-import com.how2java.pojo.Camera;
+import com.ncslab.pojo.Camera;
 
 public interface CameraMapper {
 

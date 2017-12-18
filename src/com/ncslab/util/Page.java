@@ -1,4 +1,4 @@
-package com.how2java.util;
+package com.ncslab.util;
 
 public class Page {
 

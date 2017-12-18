@@ -8,16 +8,33 @@
   <component name="ChangeListManager">
     <list default="true" id="d68e66b9-7c54-4bc9-b9d1-c88b4f91e5fa" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/how2java/controller/CameraController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/how2java/mapper/Camera.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/how2java/mapper/CameraMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/how2java/pojo/Camera.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/how2java/service/CameraService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/how2java/service/impl/CameraServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/how2java/test/MybatisTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/how2java/util/Page.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/controller/CameraController.class" afterPath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/controller/CameraController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/mapper/CameraMapper.class" afterPath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/mapper/CameraMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/pojo/Camera.class" afterPath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/pojo/Camera.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/service/CameraService.class" afterPath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/service/CameraService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/service/impl/CameraServiceImpl.class" afterPath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/service/impl/CameraServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/index.jsp" afterPath="$PROJECT_DIR$/WebContent/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/how2java/controller/CameraController.java" afterPath="$PROJECT_DIR$/src/com/how2java/controller/CameraController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/how2java/mapper/Camera.xml" afterPath="$PROJECT_DIR$/src/com/how2java/mapper/Camera.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/how2java/mapper/CameraMapper.java" afterPath="$PROJECT_DIR$/src/com/how2java/mapper/CameraMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/how2java/pojo/Camera.java" afterPath="$PROJECT_DIR$/src/com/how2java/pojo/Camera.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/how2java/service/CameraService.java" afterPath="$PROJECT_DIR$/src/com/how2java/service/CameraService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/how2java/service/impl/CameraServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/how2java/service/impl/CameraServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/build/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/log4j.properties" afterPath="$PROJECT_DIR$/build/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/springMVC.xml" afterPath="$PROJECT_DIR$/build/classes/springMVC.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/mapper/Camera.xml" afterPath="$PROJECT_DIR$/classes/artifacts/ssm_Web_exploded/WEB-INF/classes/com/how2java/mapper/Camera.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/applicationContext.xml" afterPath="$PROJECT_DIR$/src/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ncslab/controller/CameraController.java" afterPath="$PROJECT_DIR$/src/com/ncslab/controller/CameraController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ncslab/mapper/Camera.xml" afterPath="$PROJECT_DIR$/src/com/ncslab/mapper/Camera.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ncslab/mapper/CameraMapper.java" afterPath="$PROJECT_DIR$/src/com/ncslab/mapper/CameraMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ncslab/service/CameraService.java" afterPath="$PROJECT_DIR$/src/com/ncslab/service/CameraService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ncslab/service/impl/CameraServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/ncslab/service/impl/CameraServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ncslab/test/MybatisTest.java" afterPath="$PROJECT_DIR$/src/com/ncslab/test/MybatisTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ncslab/util/Page.java" afterPath="$PROJECT_DIR$/src/com/ncslab/util/Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/springMVC.xml" afterPath="$PROJECT_DIR$/src/springMVC.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CameraController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/how2java/controller/CameraController.java">
+      <file leaf-file-name="CameraController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ncslab/controller/CameraController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+            <state relative-caret-position="192">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,52 +62,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <file leaf-file-name="SuperviseDeviceController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ncslab/controller/SuperviseDeviceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listCategory.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/listCategory.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="98">
+              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CameraMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/how2java/mapper/CameraMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/CameraMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MybatisTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/how2java/test/MybatisTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CameraService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/how2java/service/CameraService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
               <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,64 +86,114 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/how2java/pojo/Camera.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-              <folding>
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Camera.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/how2java/mapper/Camera.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <marker date="1513507068810" expanded="true" signature="261:423" ph="insert into category_1... " />
-                <marker date="1513507068810" expanded="true" signature="261:424" ph="insert into cameraslist... " />
-                <marker date="1513507068810" expanded="true" signature="505:544" ph="delete from " />
-                <marker date="1513507068810" expanded="true" signature="639:683" ph="select * fro... category_1" />
-                <marker date="1513507068810" expanded="true" signature="759:925" ph="update categ... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
+      <file leaf-file-name="SuperviseDeviceService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ncslab/service/SuperviseDeviceService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperviseDevice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ncslab/pojo/SuperviseDevice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperviseDeviceMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/SuperviseDeviceMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/how2java/service/impl/CameraServiceImpl.java">
+      <file leaf-file-name="SuperviseDevice.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/SuperviseDevice.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding>
+                <marker date="1513512687883" expanded="true" signature="288:353" ph="insert into supervisedevice... " />
+                <marker date="1513512687883" expanded="true" signature="435:478" ph="delete from " />
+                <marker date="1513512687883" expanded="true" signature="574:622" ph="select * fro... supervisedevice" />
+                <marker date="1513512687883" expanded="true" signature="704:773" ph="update super... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Camera.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/Camera.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="7" column="81" lean-forward="false" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+              <folding>
+                <marker date="1513511699318" expanded="true" signature="259:421" ph="insert into category_1... " />
+                <marker date="1513511699318" expanded="true" signature="259:422" ph="insert into cameraslist... " />
+                <marker date="1513511699318" expanded="true" signature="503:542" ph="delete from " />
+                <marker date="1513511699318" expanded="true" signature="637:681" ph="select * fro... category_1" />
+                <marker date="1513511699318" expanded="true" signature="757:923" ph="update categ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ncslab/service/impl/CameraServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperviseDeviceServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ncslab/service/impl/SuperviseDeviceServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -184,6 +221,14 @@
         <option value="$PROJECT_DIR$/src/com/how2java/service/impl/CameraServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/how2java/mapper/CameraMapper.java" />
         <option value="$PROJECT_DIR$/src/com/how2java/controller/CameraController.java" />
+        <option value="$PROJECT_DIR$/src/com/ncslab/pojo/SuperviseDevice.java" />
+        <option value="$PROJECT_DIR$/src/com/ncslab/mapper/SuperviseDevice.xml.fxml" />
+        <option value="$PROJECT_DIR$/src/com/ncslab/mapper/SuperviseDevice.xml" />
+        <option value="$PROJECT_DIR$/src/com/ncslab/service/SuperviseDeviceService.java" />
+        <option value="$PROJECT_DIR$/src/com/ncslab/mapper/SuperviseDeviceMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/ncslab/controller/CameraController.java" />
+        <option value="$PROJECT_DIR$/src/com/ncslab/service/impl/SuperviseDeviceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/ncslab/controller/SuperviseDeviceController.java" />
       </list>
     </option>
   </component>
@@ -206,11 +251,14 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="74" />
-    <option name="y" value="38" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="126" />
+    <option name="y" value="77" />
     <option name="width" value="1396" />
-    <option name="height" value="923" />
+    <option name="height" value="950" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -227,93 +275,73 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab_backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="how2java" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="how2java" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="how2java" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="how2java" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="how2java" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="how2java" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="how2java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
+              <item name="ncslab_backend" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="categorylistjson1" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,7 +352,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssm_CURD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -517,14 +545,16 @@
       <workItem from="1513411195770" duration="10697000" />
       <workItem from="1513482248956" duration="2934000" />
       <workItem from="1513485235539" duration="15078000" />
+      <workItem from="1513510135289" duration="4378000" />
+      <workItem from="1513571092903" duration="988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87201000" />
+    <option name="totallyTimeSpent" value="92567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="126" y="77" width="1396" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -539,7 +569,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -548,8 +577,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29820627" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20713525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -557,8 +586,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33147943" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33073497" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,90 +602,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/mapper/Camera.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding>
-            <marker date="1513507068810" expanded="true" signature="261:423" ph="insert into category_1... " />
-            <marker date="1513507068810" expanded="true" signature="261:424" ph="insert into cameraslist... " />
-            <marker date="1513507068810" expanded="true" signature="505:544" ph="delete from " />
-            <marker date="1513507068810" expanded="true" signature="639:683" ph="select * fro... category_1" />
-            <marker date="1513507068810" expanded="true" signature="759:925" ph="update categ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/service/impl/CameraServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/controller/CameraController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/springMVC.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/pojo/Camera.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/pojo/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="87" column="22" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
           <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/test/MybatisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/test/MybatisTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/service/CameraService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/service/CameraService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
@@ -665,7 +630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/mapper/CameraMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/CameraMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
@@ -675,33 +640,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/mapper/Camera.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/Camera.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="40" />
           <folding>
-            <marker date="1513507068810" expanded="true" signature="261:423" ph="insert into category_1... " />
-            <marker date="1513507068810" expanded="true" signature="261:424" ph="insert into cameraslist... " />
-            <marker date="1513507068810" expanded="true" signature="505:544" ph="delete from " />
-            <marker date="1513507068810" expanded="true" signature="639:683" ph="select * fro... category_1" />
-            <marker date="1513507068810" expanded="true" signature="759:925" ph="update categ... " />
+            <marker date="1513511699318" expanded="true" signature="259:421" ph="insert into category_1... " />
+            <marker date="1513511699318" expanded="true" signature="259:422" ph="insert into cameraslist... " />
+            <marker date="1513511699318" expanded="true" signature="503:542" ph="delete from " />
+            <marker date="1513511699318" expanded="true" signature="637:681" ph="select * fro... category_1" />
+            <marker date="1513511699318" expanded="true" signature="757:923" ph="update categ... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/service/impl/CameraServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/service/impl/CameraServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/controller/CameraController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/controller/CameraController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="41" />
@@ -715,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,22 +707,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/pojo/Camera.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/pojo/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/service/CameraService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/service/CameraService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -768,7 +728,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/mapper/CameraMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/CameraMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
@@ -778,29 +738,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/mapper/Camera.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/Camera.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="35" />
           <folding>
-            <marker date="1513507068810" expanded="true" signature="261:423" ph="insert into category_1... " />
-            <marker date="1513507068810" expanded="true" signature="261:424" ph="insert into cameraslist... " />
-            <marker date="1513507068810" expanded="true" signature="505:544" ph="delete from " />
-            <marker date="1513507068810" expanded="true" signature="639:683" ph="select * fro... category_1" />
-            <marker date="1513507068810" expanded="true" signature="759:925" ph="update categ... " />
+            <marker date="1513511699318" expanded="true" signature="259:421" ph="insert into category_1... " />
+            <marker date="1513511699318" expanded="true" signature="259:422" ph="insert into cameraslist... " />
+            <marker date="1513511699318" expanded="true" signature="503:542" ph="delete from " />
+            <marker date="1513511699318" expanded="true" signature="637:681" ph="select * fro... category_1" />
+            <marker date="1513511699318" expanded="true" signature="757:923" ph="update categ... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/test/MybatisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/test/MybatisTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/controller/CameraController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/controller/CameraController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -814,11 +773,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/util/Page.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/util/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
@@ -837,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="888">
           <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,52 +802,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/mapper/Camera.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/Camera.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
-            <marker date="1513507068810" expanded="true" signature="261:423" ph="insert into category_1... " />
-            <marker date="1513507068810" expanded="true" signature="261:424" ph="insert into cameraslist... " />
-            <marker date="1513507068810" expanded="true" signature="505:544" ph="delete from " />
-            <marker date="1513507068810" expanded="true" signature="639:683" ph="select * fro... category_1" />
-            <marker date="1513507068810" expanded="true" signature="759:925" ph="update categ... " />
+            <marker date="1513511699318" expanded="true" signature="259:421" ph="insert into category_1... " />
+            <marker date="1513511699318" expanded="true" signature="259:422" ph="insert into cameraslist... " />
+            <marker date="1513511699318" expanded="true" signature="503:542" ph="delete from " />
+            <marker date="1513511699318" expanded="true" signature="637:681" ph="select * fro... category_1" />
+            <marker date="1513511699318" expanded="true" signature="757:923" ph="update categ... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/pojo/Camera.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/pojo/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1128">
           <caret line="83" column="30" lean-forward="false" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
           <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/service/impl/CameraServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/service/impl/CameraServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/mapper/CameraMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/CameraMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
@@ -904,7 +856,7 @@
     <entry file="file://$PROJECT_DIR$/WebContent/ncslab_react/doc/API/admin/systemConfig.md" />
     <entry file="file://$PROJECT_DIR$/WebContent/index.html" />
     <entry file="file://$PROJECT_DIR$/WebContent/ncslab_react/webpack.config.js" />
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/util/Page.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/util/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
@@ -938,14 +890,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -953,57 +904,48 @@
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/listCategory.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/test/MybatisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/test/MybatisTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="216">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/pojo/Camera.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/pojo/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
+        <state relative-caret-position="768">
           <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
           <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/service/impl/CameraServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/service/CameraService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/service/CameraService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/CameraMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="96">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1011,36 +953,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/mapper/CameraMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/SuperviseDeviceMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/controller/CameraController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/mapper/Camera.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/pojo/SuperviseDevice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <marker date="1513507068810" expanded="true" signature="261:423" ph="insert into category_1... " />
-            <marker date="1513507068810" expanded="true" signature="261:424" ph="insert into cameraslist... " />
-            <marker date="1513507068810" expanded="true" signature="505:544" ph="delete from " />
-            <marker date="1513507068810" expanded="true" signature="639:683" ph="select * fro... category_1" />
-            <marker date="1513507068810" expanded="true" signature="759:925" ph="update categ... " />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/how2java/controller/CameraController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/service/SuperviseDeviceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        <state relative-caret-position="144">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/service/impl/CameraServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/service/impl/SuperviseDeviceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/controller/SuperviseDeviceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/SuperviseDevice.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <marker date="1513512687883" expanded="true" signature="288:353" ph="insert into supervisedevice... " />
+            <marker date="1513512687883" expanded="true" signature="435:478" ph="delete from " />
+            <marker date="1513512687883" expanded="true" signature="574:622" ph="select * fro... supervisedevice" />
+            <marker date="1513512687883" expanded="true" signature="704:773" ph="update super... " />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ncslab/mapper/Camera.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="7" column="81" lean-forward="false" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+          <folding>
+            <marker date="1513511699318" expanded="true" signature="259:421" ph="insert into category_1... " />
+            <marker date="1513511699318" expanded="true" signature="259:422" ph="insert into cameraslist... " />
+            <marker date="1513511699318" expanded="true" signature="503:542" ph="delete from " />
+            <marker date="1513511699318" expanded="true" signature="637:681" ph="select * fro... category_1" />
+            <marker date="1513511699318" expanded="true" signature="757:923" ph="update categ... " />
           </folding>
         </state>
       </provider>

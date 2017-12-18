@@ -3,7 +3,7 @@
 	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-	<mapper namespace="com.how2java.mapper.CameraMapper">
+	<mapper namespace="com.ncslab.mapper.CameraMapper">
 	    <insert id="add" parameterType="Camera" >
 	        insert into cameraslist (nameCN,nameEN,webURL,width,height,testRigid,workState) VALUES (#{nameCN},#{nameEN},#{webURL},#{width},#{height},#{testRigid},#{workState})
 	    </insert>

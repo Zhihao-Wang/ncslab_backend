@@ -1,4 +1,4 @@
-package com.how2java.controller;
+package com.ncslab.controller;
 
 
 import java.io.IOException;
@@ -6,13 +6,13 @@ import java.io.PrintWriter;
 import java.util.List;
 
 import com.alibaba.fastjson.JSONObject;
-import com.how2java.pojo.Camera;
+import com.ncslab.pojo.Camera;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 
-import com.how2java.service.CameraService;
+import com.ncslab.service.CameraService;
 
 
 import javax.servlet.http.HttpServletResponse;
@@ -37,7 +37,6 @@ public class CameraController {
 		System.out.println(json);
 		out.print(json);
 		out.close();
-
 	}
 
 	@RequestMapping(value = "api/cameras/{id}",method =RequestMethod.GET )

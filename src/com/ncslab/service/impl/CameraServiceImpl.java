@@ -1,14 +1,14 @@
-package com.how2java.service.impl;
+package com.ncslab.service.impl;
 
 import java.util.List;
 
 
-import com.how2java.pojo.Camera;
+import com.ncslab.pojo.Camera;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.how2java.mapper.CameraMapper;
-import com.how2java.service.CameraService;
+import com.ncslab.mapper.CameraMapper;
+import com.ncslab.service.CameraService;
 
 
 @Service

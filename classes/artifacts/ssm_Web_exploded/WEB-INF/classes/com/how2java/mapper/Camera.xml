@@ -26,8 +26,6 @@
             </if>
             
 	    </select>
-	    <select id="total" resultType="int">
-	        select count(*) from   cameraslist
-	    </select>	    	    
+
 	</mapper>
 
