@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ncslab.mapper.CameraMapper">
+    <insert id="add" parameterType="Lab" >
+        insert into lab (labid,nameCN,ip,statusCode,manager,order) VALUES (#{labid},#{nameCN},#{ip},#{statusCode},#{manager},#{order})
+    </insert>
+
+    <delete id="delete" parameterType="Lab" >
+        delete from lab where id= #{id}
+    </delete>
+
+    <select id="get" parameterType="_int" resultType="Lab">
+        select * from   lab  where id= #{id}
+    </select>
+
+    <update id="update" parameterType="Lab" >
+        update lab set labid=#{labid},nameCN=#{nameCN},ip=#{ip},statusCode=#{statusCode},manager=#{manager},testRigid=#{testRigid},workState=#{workState} where id=#{id}
+    </update>
+    <select id="list" resultType="Lab">
+        select * from   lab order by id desc
+        <if test="start!=null and count!=null">
+            limit #{start},#{count}
+        </if>
+
+    </select>
+
+</mapper>
+

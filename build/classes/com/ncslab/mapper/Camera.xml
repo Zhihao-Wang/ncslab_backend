@@ -5,22 +5,22 @@
 
 	<mapper namespace="com.ncslab.mapper.CameraMapper">
 	    <insert id="add" parameterType="Camera" >
-	        insert into cameraslist (nameCN,nameEN,webURL,width,height,testRigid,workState) VALUES (#{nameCN},#{nameEN},#{webURL},#{width},#{height},#{testRigid},#{workState})
+	        insert into cameralist (nameCN,nameEN,webURL,width,height,testRigid,workState) VALUES (#{nameCN},#{nameEN},#{webURL},#{width},#{height},#{testRigid},#{workState})
 	    </insert>
 	    
 	    <delete id="delete" parameterType="Camera" >
-	        delete from cameraslist where id= #{id}
+	        delete from cameralist where id= #{id}
 	    </delete>
 	    
 	    <select id="get" parameterType="_int" resultType="Camera">
-	        select * from   cameraslist  where id= #{id}
+	        select * from   cameralist  where id= #{id}
 	    </select>
 
 	    <update id="update" parameterType="Camera" >
-	        update cameraslist set nameCN=#{nameCN},nameEN=#{nameEN},webURL=#{webURL},width=#{width},height=#{height},testRigid=#{testRigid},workState=#{workState} where id=#{id}
+	        update cameralist set nameCN=#{nameCN},nameEN=#{nameEN},webURL=#{webURL},width=#{width},height=#{height},testRigid=#{testRigid},workState=#{workState} where id=#{id}
 	    </update>
 	    <select id="list" resultType="Camera">
-	        select * from   cameraslist order by id desc
+	        select * from   cameralist order by id desc
 	        <if test="start!=null and count!=null">
                     limit #{start},#{count}
             </if>
