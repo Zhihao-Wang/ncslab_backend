@@ -10,11 +10,7 @@ import com.ncslab.pojo.Camera;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-
 import com.ncslab.service.CameraService;
-
-
 import javax.servlet.http.HttpServletResponse;
 
 // 告诉spring mvc这是一个控制器类

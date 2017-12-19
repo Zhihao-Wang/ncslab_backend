@@ -9,7 +9,7 @@ public class Lab {
     private String ip;
     private Boolean statusCode;
     private String manager;
-    private  int order;
+    private  int orderMenu;
 
     public int getId() {
         return id;
@@ -59,12 +59,12 @@ public class Lab {
         this.manager = manager;
     }
 
-    public int getOrder() {
-        return order;
+    public int getOrderMenu() {
+        return orderMenu;
     }
 
-    public void setOrder(int order) {
-        this.order = order;
+    public void setOrderMenu(int orderMenu) {
+        this.orderMenu = orderMenu;
     }
 
     @Override
@@ -76,7 +76,7 @@ public class Lab {
                 ", ip='" + ip + '\'' +
                 ", statusCode=" + statusCode +
                 ", manager='" + manager + '\'' +
-                ", order=" + order +
+                ", orderMenu=" + orderMenu +
                 '}';
     }
 }

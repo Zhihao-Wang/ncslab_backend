@@ -3,9 +3,9 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.ncslab.mapper.CameraMapper">
+<mapper namespace="com.ncslab.mapper.LabMapper">
     <insert id="add" parameterType="Lab" >
-        insert into lab (labid,nameCN,ip,statusCode,manager,order) VALUES (#{labid},#{nameCN},#{ip},#{statusCode},#{manager},#{order})
+        insert into lab (labid,nameCN,ip,statusCode,manager,orderMenu) VALUES (#{labid},#{nameCN},#{ip},#{statusCode},#{manager},#{orderMenu})
     </insert>
 
     <delete id="delete" parameterType="Lab" >
@@ -17,7 +17,7 @@
     </select>
 
     <update id="update" parameterType="Lab" >
-        update lab set labid=#{labid},nameCN=#{nameCN},ip=#{ip},statusCode=#{statusCode},manager=#{manager},testRigid=#{testRigid},workState=#{workState} where id=#{id}
+        update lab set labid=#{labid},nameCN=#{nameCN},ip=#{ip},statusCode=#{statusCode},manager=#{manager},orderMenu=#{orderMenu} where id=#{id}
     </update>
     <select id="list" resultType="Lab">
         select * from   lab order by id desc

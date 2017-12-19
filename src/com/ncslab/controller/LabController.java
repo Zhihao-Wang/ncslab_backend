@@ -6,17 +6,11 @@ import java.io.PrintWriter;
 import java.util.List;
 
 import com.alibaba.fastjson.JSONObject;
-
 import com.ncslab.pojo.Lab;
 import com.ncslab.service.LabService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-
-
-
-
 import javax.servlet.http.HttpServletResponse;
 
 // 告诉spring mvc这是一个控制器类
@@ -28,11 +22,11 @@ public class LabController {
 
     @RequestMapping(value = "api/labs",method = RequestMethod.GET)
     public void listLab(HttpServletResponse response) throws IOException {
-        List<Lab> cs = labService.list();
+        List<Lab> labs = labService.list();
         int retcode=1;
         JSONObject json = new JSONObject();
         json.put("retcode",JSONObject.toJSON(retcode));
-        json.put("data", JSONObject.toJSON(cs));
+        json.put("data", JSONObject.toJSON(labs));
         response.setContentType("application/xml;utf-8");
         response.setCharacterEncoding("utf-8");
         PrintWriter out = response.getWriter();
@@ -44,8 +38,8 @@ public class LabController {
     @RequestMapping(value = "api/labs/{id}",method =RequestMethod.GET )
     public void listLab_one(@PathVariable("id")Integer id, HttpServletResponse response) throws IOException {
         int retcode;
-        Lab c= labService.get(id);
-        if(c==null){
+        Lab lab= labService.get(id);
+        if(lab==null){
             retcode=0;
         }
         else{
@@ -53,7 +47,7 @@ public class LabController {
         }
         JSONObject json=new JSONObject();
         json.put("retcode",JSONObject.toJSON(retcode));
-        json.put("data", JSONObject.toJSON(c));
+        json.put("data", JSONObject.toJSON(lab));
         response.setContentType("application/xml;utf-8");
         response.setCharacterEncoding("utf-8");
         PrintWriter out=response.getWriter();

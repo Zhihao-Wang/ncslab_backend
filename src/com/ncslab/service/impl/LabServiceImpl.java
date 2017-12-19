@@ -4,9 +4,11 @@ import com.ncslab.mapper.LabMapper;
 import com.ncslab.pojo.Lab;
 import com.ncslab.service.LabService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class LabServiceImpl implements LabService {
 
     @Autowired
